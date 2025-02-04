@@ -29,5 +29,8 @@ jobs:
           npx -y playwright@^1.41.2 install chromium
           npm ci
 
-      - name: Build slides
-        run: ./build.sh
+      - name: Build slides (ACS CC)
+        run: ./build.sh acs
+
+      - name: Build slides (FILS EN)
+        run: ./build.sh acs
