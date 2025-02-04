@@ -31,7 +31,7 @@ This landed the *moon eagle*.
 
 </div>
 
-<img src="/agc/agc.jpg">
+<img src="./agc.jpg">
 </div>
 
 ---
@@ -40,8 +40,7 @@ This landed the *moon eagle*.
 Display and keyboard
 
 <div align="center">
-<img src="/agc/dsky.png" class="h-90" />
+<img src="./dsky.png" class="h-90" />
 </div align="center">
 
 [Simulator](https://svtsim.com/moonjs/agc.html)
-

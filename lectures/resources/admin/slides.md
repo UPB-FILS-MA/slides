@@ -19,7 +19,7 @@
 
 </div>
 
-<img src="/admin/pm_fair.png" class="w-60">
+<img src="./pm_fair.png" class="w-60">
 
 </div>
 

@@ -16,7 +16,7 @@ Integrated in embedded systems for certain tasks
 - costs $0.1 - $25
 - annual demand is billions
 
-<img src="/processor/pico.jpg" class="m-5 h-30 rounded">
+<img src="./pico.jpg" class="m-5 h-30 rounded">
 
 
 :: right ::
@@ -30,28 +30,28 @@ General purpose, for PC & workstations
 - costs $75 - $500
 - annual demand is tens of millions
 
-<img src="/processor/pi5.jpg" class="m-5 h-50 rounded">
+<img src="./pi5.jpg" class="m-5 h-50 rounded">
 ---
 ---
 # How a microprocessor (MCU) works
 This is a simple processor
 
-![Processor](/processor/processor.svg)
+![Processor](./processor.svg)
 
 ---
 
 # 8 bit processor
 a simple 8 bit processor with a text display
 
-![8 Bit Processor](/processor/8-bit-processor.svg)
+![8 Bit Processor](./8-bit-processor.svg)
 
 ---
 layout: two-cols
 ---
-# Programming 
+# Programming
 in Rust
 
-![8 Bit Processor](/processor/8-bit-processor.svg)
+![8 Bit Processor](./8-bit-processor.svg)
 
 <v-click>
 
@@ -79,7 +79,7 @@ fn start() {
 hello: DB "Hello World!" ; Variable
        DB 0	; String terminator
 start:
-	MOV C, hello    ; Point to var 
+	MOV C, hello    ; Point to var
 	MOV D, 232	; Point to output
 	CALL print
         HLT             ; Stop execution
@@ -91,7 +91,7 @@ print:			; print(C:*from, D:*to)
 	MOV A, [C]	; Get char from var
 	MOV [D], A	; Write to output
 	INC C
-	INC D  
+	INC D
 	CMP B, [C]	; Check if end
 	JNZ .loop	; jump if not
 
