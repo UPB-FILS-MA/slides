@@ -1,0 +1,33 @@
+name: Test Build
+
+on:
+  pull_request:
+    branches:
+      - main
+    # Review gh actions docs if you want to further define triggers, paths, etc
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+  merge_group:
+
+jobs:
+  test-deploy:
+    name: Test Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install dependencies
+        run: |
+          npx -y playwright@^1.41.2 install chromium
+          npm ci
+
+      - name: Build slides
+        run: ./build.sh
