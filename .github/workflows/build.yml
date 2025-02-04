@@ -30,7 +30,7 @@ jobs:
           npm ci
 
       - name: Build slides (ACS CC)
-        run: ./build.sh acs
+        run: ./build.sh acs_cc
 
       - name: Build slides (FILS EN)
-        run: ./build.sh acs
+        run: ./build.sh fils_en
