@@ -17,7 +17,7 @@ layout: cover
 themeConfig:
   primary: '#0060df'
 download: true
-exportFilename: ma-01
+exportFilename: pm_cc-01
 background:
 ---
 
@@ -47,7 +47,7 @@ src: ./team.md
 <!-- Admin -->
 
 ---
-src: ./admin/slides.md
+src: ../../resources/admin/slides.md
 ---
 
 <!-- Subjects -->
@@ -59,25 +59,25 @@ src: ./subjects.md
 <!-- AGC -->
 
 ---
-src: ./agc/slides.md
+src: ../../resources/agc/slides.md
 ---
 
 <!-- Processor -->
 
 ---
-src: ./processor/slides.md
+src: ../../resources/processor/slides.md
 ---
 
 <!-- MCUs -->
 
 ---
-src: ./mcu/slides.md
+src: ../../resources/mcu/slides.md
 ---
 
 <!-- RP2040 -->
 
 ---
-src: ./rp2040/slides.md
+src: ../../resources/rp2040/slides.md
 ---
 
 ---

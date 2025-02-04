@@ -2,14 +2,14 @@
 layout: section
 ---
 # Real Word Microcontrollers
-Intel / AVR / PIC / TriCore / ARM Cortex-M / RISC-V rv32i(a)mc 
+Intel / AVR / PIC / TriCore / ARM Cortex-M / RISC-V rv32i(a)mc
 
 ---
 ---
 # Bibliography
 for this section
 
-**Joseph Yiu**, *The Definitive Guide to ARM® Cortex®-M0 and Cortex-M0+ Processors, 2nd Edition* 
+**Joseph Yiu**, *The Definitive Guide to ARM® Cortex®-M0 and Cortex-M0+ Processors, 2nd Edition*
    - Chapter 1 - *Introduction*
    - Chapter 2 - *Technical Overview*
 
@@ -31,7 +31,7 @@ for this section
 
 </div>
 
-<img src="/mcu/intel_8051.jpg" class="h-80 rounded" />
+<img src="./intel_8051.jpg" class="h-80 rounded" />
 
 </div>
 
@@ -56,9 +56,9 @@ probably *Alf and Vegard's RISC processor*
 </div>
 
 <div>
-    <img src="/mcu/atmega_328.jpg" class="h-50 rounded" />
+    <img src="./atmega_328.jpg" class="h-50 rounded" />
     Board
-    <img src="/mcu/arduino_uno.jpg" class="h-45 rounded" />
+    <img src="./arduino_uno.jpg" class="h-45 rounded" />
 </div>
 
 </div>
@@ -82,7 +82,7 @@ Peripheral Interface Controller / Programmable Intelligent Computer
 
 </div>
 
-<img src="/mcu/pic.jpg" class="h-50 rounded" />
+<img src="./pic.jpg" class="h-50 rounded" />
 
 </div>
 
@@ -104,7 +104,7 @@ Peripheral Interface Controller / Programmable Intelligent Computer
 
 </div>
 
-<img src="/mcu/tricore.png" class="h-50" />
+<img src="./tricore.png" class="h-50" />
 
 </div>
 
@@ -127,7 +127,7 @@ Advanced RISC Machine
 
 </div>
 
-<img src="/mcu/arm_logo.png" class="h-20" />
+<img src="./arm_logo.png" class="h-20" />
 
 </div>
 
@@ -151,6 +151,6 @@ Fifth generation of RISC ISA
 
 </div>
 
-<img src="/mcu/risc-v_logo.png" class="h-60" />
+<img src="./risc-v_logo.png" class="h-60" />
 
 </div>
