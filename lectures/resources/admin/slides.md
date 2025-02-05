@@ -1,5 +1,3 @@
----
----
 # Outline
 
 <div grid="~ cols-2 gap-5">
@@ -13,7 +11,7 @@
   - 12 labs
 
 ## Project
-- Build a hardware device running software written in Rust
+- Build a hardware device running software written in Rust or C on a microcontroller-based board
 - The cost for the hardware is around 150 RON
 - Presented at PM Fair during the last week of the semester
 
