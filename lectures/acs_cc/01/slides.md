@@ -207,11 +207,11 @@ src: ../../resources/agc/slides.md
 
 <br>
 
-https://www.nxp.com/products/processors-and-microcontrollers/s32-automotive-platform/s32z-and-s32e-real-time-processors/s32e2-safe-and-secure-high-performance-real-time-processors-with-actuation-support:S32E2
+[NXP S32ZE](https://www.nxp.com/products/processors-and-microcontrollers/s32-automotive-platform/s32z-and-s32e-real-time-processors/s32e2-safe-and-secure-high-performance-real-time-processors-with-actuation-support:S32E2)
 
 <br>
 
-https://www.st.com/en/microcontrollers-microprocessors/stm32h757zi.html
+[STM32H](https://www.st.com/en/microcontrollers-microprocessors/stm32h757zi.html)
 
 ---
 
@@ -277,3 +277,7 @@ we talked about
 - Microcontroller architectures
 - ARM Cortex-M
 - RP2040
+
+---
+src: dr_software.md
+---

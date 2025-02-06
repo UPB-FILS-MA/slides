@@ -99,7 +99,10 @@ von Neumann, where memory contains both instructions and data.
 > Today's PCs are all von Neumann
 
 Harvard, where memory access is done on separate buses, one for data, one for instructions.	
-> ARM and AVR microcontrollers from the lab are Harvard
+> AVR, PIC, DSPs and many microcontrollers are Harvard
+
+Note: ARM is von Neumann with some * 
+Note: GPUs (NVIDIA) are mixed arhitecture
 
 ---
 
